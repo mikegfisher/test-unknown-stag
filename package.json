@@ -1,0 +1,16 @@
+{
+  "name": "test-unknown-stag",
+  "version": "0.0.1",
+  "description": "Functional testing for unknown-stag web app",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mikegfisher",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^2.1.0",
+    "cypress-cucumber-preprocessor": "^1.0.0"
+  }
+}
