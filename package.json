@@ -12,5 +12,8 @@
   "devDependencies": {
     "cypress": "^2.1.0",
     "cypress-cucumber-preprocessor": "^1.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "step_definitions/"
   }
 }
